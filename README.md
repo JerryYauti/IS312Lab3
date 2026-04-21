@@ -8,16 +8,6 @@ This lab project was completed collaboratively by Jerry and George, with tasks d
     George focused on the CSS, JavaScript, and images, handling the styling, interactivity, and visual assets of the project.
 
 Together, the contributions were integrated to form a responsive and visually appealing website.
-About Bootstrap
 
-Bootstrap is a popular front‑end framework used to build responsive and mobile‑first websites quickly. It provides:
 
-    Pre‑built components such as navigation bars, buttons, modals, and forms.
 
-    Grid system for flexible layouts across different screen sizes.
-
-    Utility classes for spacing, text styling, and alignment.
-
-    Responsive design features that automatically adjust content for desktops, tablets, and mobile devices.
-
-By using Bootstrap, Jerry and George were able to streamline development, ensure consistency across pages, and meet the lab’s rubric requirements efficiently
