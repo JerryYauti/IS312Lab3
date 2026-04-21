@@ -1,0 +1,32 @@
+/* Hero background for innovations */
+.hero-innovations {
+  position: relative;
+  background-image: url("../images/innovation-bg.jpg"); /* replace with your image */
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-innovations::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5); /* overlay for readability */
+}
+
+.hero-innovations h1,
+.hero-innovations p {
+  position: relative;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
