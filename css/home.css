@@ -1,0 +1,32 @@
+body { background-color: #f8f9fa; }
+.jumbotron { border-radius: 10px; }
+.custom-margin { margin-top: 20px; }
+.custom-padding { padding: 15px; }
+
+.hero-jumbotron {
+  position: relative;
+  background-image: url("../images/k-12-tech-innovation-news.jpeg");
+  background-size: cover;       /* ensures the image covers the section */
+  background-position: center;  /* keeps it centered */
+  background-repeat: no-repeat;
+  min-height: 100vh;            /* makes it fill the full viewport height */
+  display: flex;                /* centers content vertically */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(206, 209, 29);
+  text-align: center;
+}
+
+.hero-jumbotron::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(54, 43, 43, 0.5); /* overlay for readability */
+}
+
+.hero-jumbotron h1,
+.hero-jumbotron p,
+.hero-jumbotron a {
+  position: relative; /* keeps text above overlay */
+}

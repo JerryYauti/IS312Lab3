@@ -1,0 +1,33 @@
+/* Hero background for About Us */
+.hero-about {
+  position: relative;
+  background-image: url("images\360_F_301481839_p4RvuPBeFTeNvDXyl2ez822gZhQ7ZWEF.jpg"); /* replace with your image */
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-about::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5); /* overlay for readability */
+}
+
+.hero-about h1,
+.hero-about p {
+  position: relative;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
